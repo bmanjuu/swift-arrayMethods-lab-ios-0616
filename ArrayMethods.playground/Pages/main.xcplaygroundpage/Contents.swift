@@ -132,6 +132,10 @@ for (i, day) in daysOfTheWeek.enumerate() {
     print(day.lowercaseString)
 }
 
+//ALTERNATIVE (from solution, for future reference) 
+//for (index, day) in daysOfTheWeek.enumerate() {
+//    daysOfTheWeek[index] = day.lowercaseString
+//}
 
 
 
@@ -151,6 +155,15 @@ func checkNumberOfDays (week: [String]) -> [String]{
 
 print(checkNumberOfDays(daysOfTheWeek))
 
+//ALTERNATIVE (from solution, for future reference) 
+//print(checkNumberOfDays(daysOfTheWeek))
+//
+//if daysOfTheWeek.count > 5 {
+//    daysOfTheWeek.removeAtIndex(0)
+//    daysOfTheWeek.removeAtIndex(5)
+//} else {
+//    print("No Weekend")
+//}
 
 
 
